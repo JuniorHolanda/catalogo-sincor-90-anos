@@ -1,0 +1,52 @@
+.container-main-product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+  padding: 10px 0;
+}
+.container-main-product .card-main-prduct {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-height: 500px;
+  gap: 10px;
+  border: solid var(--clear-color);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.container-main-product .card-main-prduct .container-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 120px;
+}
+.container-main-product .card-main-prduct .container-img .img-card {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container-main-product .card-main-prduct .info-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+  height: 40%;
+  width: 90%;
+  font-family: var(--font-main);
+}
+.container-main-product .card-main-prduct .info-card .title-card {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.container-main-product .card-main-prduct .info-card .description-card {
+  font-weight: 100;
+  font-size: 1rem;
+}
+.container-main-product .card-main-prduct .info-card .details-card {
+  font-weight: 100;
+  font-size: 0.6rem;
+}/*# sourceMappingURL=container-main-product.css.map */

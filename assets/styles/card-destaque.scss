@@ -1,0 +1,25 @@
+.card-destaque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+    border: solid var(--clear-color);
+    border-radius: 10px;
+    overflow: hidden;
+    .banner-destaque{
+        width: 100%;
+    }
+    .title-card-destaque{
+        font-size: 2rem;
+        font-family: var(--font-main);
+        font-weight: 700;
+        line-height: 35px;
+        text-align: center;
+        color: var(--sinc-color01);
+        padding: 0 10px;
+        strong {
+            color: var(--tirth-color)
+        }
+    }
+}

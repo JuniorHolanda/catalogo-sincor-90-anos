@@ -1,3 +1,59 @@
+@import url(assets/styles/cabecalho.css);
+@import url(assets/styles/card-destaque.css);
+@import url(assets/styles/container-main-product.css);
+@import url("https://use.typekit.net/oqh1shf.css");
+
+:root{
+
+    // Cores
+    --sinc-color01: #032E5C;
+    --sinc-color02: #B99559;
+    --second-color: #3b8ea5;
+    --tirth-color: #ab3428;
+    --fourth-color: #45503b;
+    --background-color: #e7e7e7;
+    --clear-color: #ffffff;
+
+    // Fonts
+    --font-main: "azo-sans-web", sans-serif;
+}
 html{
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-color: var(--background-color);
+        body{
+            width: 95%;
+            gap: 10px;
+        }
+    
+    // sessão dos 90 anos
+    .container-logo-sicor{
+        width: 90%;
+        .logo-sincor{
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    // botão estilo universal
+    .container-btn{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: var(--font-main);
+        border-radius: 50px;
+        border: solid var(--sinc-color01);
+        padding: 10px;
+        margin: 10px;
+        color: var(--sinc-color01);
+        .btn {
+            text-align: center;
+            color: var(--sinc-color01);
+        }
+
+    }
 }

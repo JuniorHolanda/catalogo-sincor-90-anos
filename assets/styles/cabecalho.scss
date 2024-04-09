@@ -1,0 +1,19 @@
+ // Cabeçalho
+ .cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    background-color: var(--sinc-color01);
+    border-radius: 50px;
+    .logo-cabecalho{
+        width: 130px;
+        padding: 10px;
+    }
+    .social-icon-header{
+        padding: 10px;
+        font-size: 32px;
+        color: var(--sinc-color02);
+    }
+}
