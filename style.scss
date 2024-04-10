@@ -1,8 +1,10 @@
 @import url(assets/styles/cabecalho.css);
 @import url(assets/styles/card-destaque.css);
 @import url(assets/styles/container-main-product.css);
-@import url("https://use.typekit.net/oqh1shf.css");
+@import url(assets/styles/container-secndary-product.css);
 @import url(assets/styles/global-style-card.css);
+@import url(assets/styles/global-style-secundary-product.css);
+@import url("https://use.typekit.net/oqh1shf.css");
 
 :root{
 
@@ -41,10 +43,9 @@ html{
 
     // botão estilo universal
     .container-btn{
-        width: 70%;
         display: flex;
+        width: 70%;
         justify-content: space-between;
-        align-items: center;
         font-family: var(--font-main);
         border-radius: 50px;
         border: solid var(--sinc-color01);

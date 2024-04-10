@@ -1,0 +1,46 @@
+.card-secundary-prduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+  border: solid var(--clear-color);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card-secundary-prduct .container-img-secundary-prduct {
+  width: 100%;
+}
+.card-secundary-prduct .container-img-secundary-prduct img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+.card-secundary-prduct .info-card-secundary-prduct {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card-secundary-prduct .info-card-secundary-prduct .title-card-secundary-product {
+  font-family: var(--font-main);
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+.card-secundary-prduct .info-card-secundary-prduct .description-card-secundary-product {
+  font-size: 0.8rem;
+}
+.card-secundary-prduct .info-card-secundary-prduct .details-card-secundary-product {
+  font-size: 0.8rem;
+}
+.card-secundary-prduct .container-btn {
+  justify-content: center;
+  align-items: center;
+}
+.card-secundary-prduct .container-btn a {
+  font-size: 0.8rem;
+}
+
+.wrap-doble-card {
+  display: flex;
+}/*# sourceMappingURL=global-style-secundary-product.css.map */

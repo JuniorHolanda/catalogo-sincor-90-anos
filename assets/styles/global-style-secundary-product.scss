@@ -1,0 +1,51 @@
+.card-secundary-prduct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    border: solid var(--clear-color);
+    border-radius: 10px;
+    overflow: hidden;
+    .container-img-secundary-prduct{
+        width: 100%;
+        img{
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+    .info-card-secundary-prduct{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .title-card-secundary-product{
+            font-family: var(--font-main);
+            font-weight: 700;
+            font-size: .8rem;
+        }
+        .description-card-secundary-product{
+            font-size: .8rem;
+        }
+        .details-card-secundary-product{
+            font-size: .8rem;
+        }
+    }
+
+    .container-btn{
+
+        justify-content: center;
+        align-items: center;
+        a{
+            font-size: .8rem;
+        }
+       
+    }
+}
+
+// para colocar dois cartões em uma coluna
+
+.wrap-doble-card{
+    display: flex;
+}

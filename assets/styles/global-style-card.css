@@ -9,7 +9,6 @@
   overflow: hidden;
 }
 .card-main-prduct .container-img {
-  border: solid purple;
   display: flex;
   height: 40%;
   flex-direction: column;
