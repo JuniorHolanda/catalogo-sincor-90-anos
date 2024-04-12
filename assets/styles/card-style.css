@@ -25,6 +25,51 @@
   color: var(--tirth-color);
 }
 
+.card-secundary-prduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+  border: solid var(--clear-color);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card-secundary-prduct .container-img-secundary-prduct {
+  width: 100%;
+}
+.card-secundary-prduct .container-img-secundary-prduct img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+.card-secundary-prduct .info-card-secundary-prduct {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card-secundary-prduct .info-card-secundary-prduct .title-card-secundary-product {
+  font-family: var(--font-main);
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+.card-secundary-prduct .info-card-secundary-prduct .description-card-secundary-product {
+  font-size: 0.8rem;
+}
+.card-secundary-prduct .info-card-secundary-prduct .details-card-secundary-product {
+  font-size: 0.8rem;
+}
+
+.wrap-doble-card {
+  display: flex;
+  grid-area: 2/1/3/4;
+  gap: 20px;
+}
+.wrap-doble-card .card-secundary-prduct {
+  background-color: var(--clear-color);
+}
+
 .container-secndary-product {
   display: grid;
   grid-template-columns: 30% 30% 30%;
@@ -35,28 +80,36 @@
 
 .secundary-prduct-1 {
   grid-area: 1/1/2/2;
+  background-color: var(--clear-color);
 }
 
 .secundary-prduct-2 {
   grid-area: 1/2/2/3;
+  background-color: var(--clear-color);
 }
 
 .secundary-prduct-3 {
   grid-area: 1/3/2/3;
-}
-
-.wrap-doble-card {
-  grid-area: 2/1/3/4;
-  display: grid;
-}
-
-.secundary-prduct-5 {
-  display: grid;
-  grid-template: 1 1/1 0.3;
-  grid-area: 3/1/4/4;
   background-color: var(--clear-color);
-  height: 20vh;
 }
-.secundary-prduct-5 .container-img-secundary-prduct {
+
+.secundary-prduct-6 {
+  display: grid;
+  grid-area: 3/1/4/4;
+  grid-template: 1.5fr 1fr/1fr 0.3fr;
+  height: 20vh;
+  background-color: var(--clear-color);
+}
+.secundary-prduct-6 .container-img-secundary-prduct {
   grid-area: 1/1/3/2;
+  border: solid red;
+  align-items: center;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.secundary-prduct-6 .info-card-secundary-prduct {
+  border: solid yellow;
+}
+.secundary-prduct-6 .container-btn {
+  border: solid pink;
 }/*# sourceMappingURL=card-style.css.map */

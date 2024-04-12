@@ -32,6 +32,51 @@
 
 //card secundary
 
+.card-secundary-prduct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    border: solid var(--clear-color);
+    border-radius: 10px;
+    overflow: hidden;
+    .container-img-secundary-prduct{
+        width: 100%;
+        img{
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+    .info-card-secundary-prduct{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .title-card-secundary-product{
+            font-family: var(--font-main);
+            font-weight: 700;
+            font-size: .8rem;
+        }
+        .description-card-secundary-product{
+            font-size: .8rem;
+        }
+        .details-card-secundary-product{
+            font-size: .8rem;
+        }
+    }
+}
+
+.wrap-doble-card{
+    display: flex;
+    grid-area: 2/1/3/4;
+    gap: 20px;
+    .card-secundary-prduct{
+        background-color: var(--clear-color);
+    }
+}
+
 .container-secndary-product{
     display: grid;
     grid-template-columns: 30% 30% 30%;
@@ -42,27 +87,38 @@
 
 .secundary-prduct-1{
     grid-area: 1/1/2/2;
+    background-color: var(--clear-color);
 }
 .secundary-prduct-2{
     grid-area: 1/2/2/3;
+    background-color: var(--clear-color);
 }
 .secundary-prduct-3{
     grid-area: 1/3/2/3;
-}
-.wrap-doble-card{ //CONTAINER DOS CARDS SECUNDÁRIOS DUPLOS
-    grid-area: 2/1/3/4;
-    display: grid;  
+    background-color: var(--clear-color);
 }
 
-.secundary-prduct-5{
+.secundary-prduct-6{
     display: grid;
-    grid-template: 1 1 / 1 .3;
     grid-area: 3/1/4/4;
-    background-color: var(--clear-color);
+    grid-template: 1.5fr 1fr / 1fr .3fr;
     height: 20vh;
+    background-color: var(--clear-color);
+
     .container-img-secundary-prduct{
         grid-area: 1/1/3/2;
+        border: solid red;
+        align-items: center;
+        object-fit: contain;
         
+    }
+
+    .info-card-secundary-prduct{
+        border: solid yellow;
+    }
+
+    .container-btn{
+        border: solid pink;
     }
 
 

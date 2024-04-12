@@ -1,15 +1,20 @@
 .container-btn {
   display: flex;
   width: 70%;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   font-family: var(--font-main);
-  border-radius: 50px;
+  border-radius: 30px;
   border: solid var(--sinc-color01);
-  padding: 10px;
-  margin: 10px;
+  padding: 5px;
+  gap: 5px;
   color: var(--sinc-color01);
 }
 .container-btn .btn {
-  text-align: center;
+  display: flex;
+  font-size: 0.7rem;
   color: var(--sinc-color01);
+}
+.container-btn .btn i, .container-btn .btn a {
+  display: flex;
 }/*# sourceMappingURL=all-btn-style.css.map */
