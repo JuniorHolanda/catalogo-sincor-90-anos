@@ -1,9 +1,10 @@
 @import url(assets/styles/cabecalho.css);
-@import url(assets/styles/card-destaque.css);
+@import url(assets/styles/card-style.css);
 @import url(assets/styles/container-main-product.css);
 @import url(assets/styles/container-secndary-product.css);
 @import url(assets/styles/global-style-card.css);
 @import url(assets/styles/global-style-secundary-product.css);
+@import url(assets/styles/all-btn-style.css);
 @import url("https://use.typekit.net/oqh1shf.css");
 
 :root{
@@ -28,8 +29,11 @@ html{
     width: 100vw;
     background-color: var(--background-color);
         body{
+            display: flex;
+            flex-direction: column;
             width: 95%;
-            gap: 10px;
+            gap: 20px;
+            
         }
     
     // sessão dos 90 anos
@@ -39,23 +43,5 @@ html{
             width: 100%;
             text-align: center;
         }
-    }
-
-    // botão estilo universal
-    .container-btn{
-        display: flex;
-        width: 70%;
-        justify-content: space-between;
-        font-family: var(--font-main);
-        border-radius: 50px;
-        border: solid var(--sinc-color01);
-        padding: 10px;
-        margin: 10px;
-        color: var(--sinc-color01);
-        .btn {
-            text-align: center;
-            color: var(--sinc-color01);
-        }
-
     }
 }

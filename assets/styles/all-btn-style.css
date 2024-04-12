@@ -1,0 +1,15 @@
+.container-btn {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  font-family: var(--font-main);
+  border-radius: 50px;
+  border: solid var(--sinc-color01);
+  padding: 10px;
+  margin: 10px;
+  color: var(--sinc-color01);
+}
+.container-btn .btn {
+  text-align: center;
+  color: var(--sinc-color01);
+}/*# sourceMappingURL=all-btn-style.css.map */

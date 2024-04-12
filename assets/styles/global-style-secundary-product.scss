@@ -48,4 +48,8 @@
 
 .wrap-doble-card{
     display: flex;
+    gap: 20px;
+    .card-secundary-prduct{
+        background-color: var(--clear-color);
+    }
 }

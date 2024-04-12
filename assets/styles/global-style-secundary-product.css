@@ -43,4 +43,8 @@
 
 .wrap-doble-card {
   display: flex;
+  gap: 20px;
+}
+.wrap-doble-card .card-secundary-prduct {
+  background-color: var(--clear-color);
 }/*# sourceMappingURL=global-style-secundary-product.css.map */

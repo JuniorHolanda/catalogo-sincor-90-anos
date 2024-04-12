@@ -1,0 +1,69 @@
+// card destaque
+
+.card-destaque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+    border: solid var(--clear-color);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--clear-color);
+    .banner-destaque{
+        width: 100%;
+    }
+    .title-card-destaque{
+        font-size: 2rem;
+        font-family: var(--font-main);
+        font-weight: 700;
+        line-height: 35px;
+        text-align: center;
+        color: var(--sinc-color01);
+        padding: 0 10px;
+        strong {
+            color: var(--tirth-color)
+        }
+        
+    }
+}
+
+
+
+//card secundary
+
+.container-secndary-product{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+
+.secundary-prduct-1{
+    grid-area: 1/1/2/2;
+}
+.secundary-prduct-2{
+    grid-area: 1/2/2/3;
+}
+.secundary-prduct-3{
+    grid-area: 1/3/2/3;
+}
+.wrap-doble-card{ //CONTAINER DOS CARDS SECUNDÁRIOS DUPLOS
+    grid-area: 2/1/3/4;
+    display: grid;  
+}
+
+.secundary-prduct-5{
+    display: grid;
+    grid-template: 1 1 / 1 .3;
+    grid-area: 3/1/4/4;
+    background-color: var(--clear-color);
+    height: 20vh;
+    .container-img-secundary-prduct{
+        grid-area: 1/1/3/2;
+        
+    }
+
+
+}
