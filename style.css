@@ -26,7 +26,6 @@ html {
   background-color: var(--background-color);
 }
 html body {
-  BORDER: SOLID ORANGE;
   display: flex;
   flex-direction: column;
   align-items: center;
