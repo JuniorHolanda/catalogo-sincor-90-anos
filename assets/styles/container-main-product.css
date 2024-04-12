@@ -1,7 +1,7 @@
 .container-main-product {
   display: grid;
   grid-template-columns: 49% 49%;
-  gap: 20px;
+  gap: 0 2%;
   grid-template-rows: auto auto auto auto;
   width: 100%;
 }

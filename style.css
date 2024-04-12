@@ -26,15 +26,18 @@ html {
   background-color: var(--background-color);
 }
 html body {
+  BORDER: SOLID ORANGE;
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 95%;
   gap: 20px;
 }
-html .container-logo-sicor {
-  width: 90%;
+html body .container-logo-sicor {
+  border: SOLID green;
+  width: 100%;
 }
-html .container-logo-sicor .logo-sincor {
+html body .container-logo-sicor .logo-sincor {
   width: 100%;
   text-align: center;
 }/*# sourceMappingURL=style.css.map */

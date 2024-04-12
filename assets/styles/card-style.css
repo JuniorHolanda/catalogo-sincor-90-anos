@@ -24,6 +24,9 @@
 .card-destaque .title-card-destaque strong {
   color: var(--tirth-color);
 }
+.card-destaque .container-btn {
+  margin: 20px;
+}
 
 .card-secundary-prduct {
   display: flex;
