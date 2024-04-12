@@ -1,17 +1,19 @@
 .container-main-product {
   display: grid;
-  grid-template-columns: 49% 49%;
-  gap: 0 2%;
+  grid-template-columns: 48% 48%;
+  gap: 20px 20px;
   grid-template-rows: auto auto auto auto;
   width: 100%;
 }
 .container-main-product .card-main-1 {
   grid-area: 1/1/2/2;
   background-color: var(--clear-color);
+  border: solid red;
 }
 .container-main-product .card-main-2 {
   grid-area: 2/2/3/3;
   background-color: var(--clear-color);
+  border: solid rgb(223, 31, 143);
 }
 .container-main-product .card-main-3 {
   grid-area: 3/1/4/3;
@@ -27,6 +29,8 @@
   background-color: var(--clear-color);
 }
 .container-main-product .text-main-product-1 {
+  border: solid orange;
+  max-width: 100%;
   grid-area: 1/2/2/3;
   line-height: 1.5;
 }
