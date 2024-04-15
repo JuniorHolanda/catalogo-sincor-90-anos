@@ -42,26 +42,29 @@
   text-align: center;
 }
 .modal-style .container-gallery {
-  display: grid;
-  align-content: center;
+  display: flex;
+  flex-direction: column;
   height: auto;
   width: 100%;
   border: solid purple;
   gap: 5px;
-  grid-template: 30vh auto/1fr 1fr 1fr 1fr;
   overflow: hidden;
   border-radius: 20px;
 }
-.modal-style .container-gallery .img-modal-destaque {
-  grid-column: 1/5;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  justify-self: center;
-  align-self: center;
+.modal-style .container-gallery .container-main-img {
+  border: solid rgb(255, 166, 0);
 }
-.modal-style .container-gallery .secundary-img-modal {
+.modal-style .container-gallery .container-main-img .img-modal-destaque {
+  -o-object-fit: contain;
+     object-fit: contain;
   width: 100%;
+}
+.modal-style .container-gallery .container-secundary-img {
+  display: flex;
+  justify-content: space-between;
+}
+.modal-style .container-gallery .container-secundary-img .secundary-img-modal {
+  width: 24%;
 }
 .modal-style .product-modal-details {
   display: grid;
