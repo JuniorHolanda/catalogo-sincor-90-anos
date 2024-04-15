@@ -5,14 +5,20 @@
 
 .style-close-modal{
     position: absolute;
+    border: none;
+    font-size: 2rem;
+    background-color: transparent;
+    color: var(--second-color);
     height: 30px;
     width: 30px;
-    right: 20px;
-    top: 20px;
+    right: 10px;
+    top: 10px;
 }
 .modal-style{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 80vw;
     gap: 20px;
     background-color: var(--background-color);
@@ -35,8 +41,11 @@
     }
     .container-gallery{
         display: grid;
+        align-self: center;
+        justify-self: center;
         height: auto;
         width: 100%;
+        border: solid purple;
         gap: 5px;
         grid-template:  30vh auto / 1fr 1fr 1fr 1fr;
         overflow: hidden;
