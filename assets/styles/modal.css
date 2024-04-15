@@ -1,11 +1,49 @@
-.modal-container::backdrop {
-  background-color: #000000;
+.modal-style::backdrop {
+  background-color: rgba(34, 34, 34, 0.7333333333);
 }
 
-.modal-container {
+.modal-style.active {
   display: flex;
   flex-direction: column;
-  width: 70vw;
-  height: 30vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   background-color: red;
+}
+
+.modal-style {
+  height: 90vh;
+  background-color: var(--background-color);
+}
+.modal-style .container-name-description {
+  width: 95vw;
+}
+.modal-style .container-name-description .title-modal {
+  font-size: 3rem;
+  font-family: var(--font-main);
+  font-weight: 600;
+  text-align: center;
+}
+.modal-style .container-name-description .text-modal {
+  font-size: 1rem;
+  font-family: var(--font-main);
+  text-align: center;
+}
+.modal-style .container-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  height: auto;
+  width: 100%;
+  gap: 5px;
+  overflow: hidden;
+  border-radius: 10px;
+  border: solid red;
+}
+.modal-style .container-gallery .img-modal-destaque {
+  grid-column: 1/5;
+  width: 100%;
+}
+.modal-style .container-gallery .secundary-img-modal {
+  width: 100%;
 }/*# sourceMappingURL=modal.css.map */
