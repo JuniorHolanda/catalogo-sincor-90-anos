@@ -3,6 +3,7 @@ const btnAbrirModal = document.querySelectorAll('.btn')
 console.log(btnAbrirModal);
 
 btnAbrirModal[1].addEventListener('click' , () => {
+    modal.classList.add('modal-style')
     modal.showModal();
 });
 

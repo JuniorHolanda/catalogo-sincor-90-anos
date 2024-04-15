@@ -1,20 +1,17 @@
 .modal-style::backdrop {
-    background-color: #222222bb;
-}
-.modal-style.active {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: red;
+    backdrop-filter: blur(10px);
 }
 
+
 .modal-style{
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
     height: 90vh;
+    gap: 20px;
     background-color: var(--background-color);
     .container-name-description{
-        width: 95vw;
+        width: 100%;
         .title-modal{
             font-size: 3rem;
             font-family: var(--font-main);
@@ -29,14 +26,12 @@
     }
     .container-gallery{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 2fr 1fr;
         height: auto;
         width: 100%;
         gap: 5px;
+        grid-template:  2fr auto / 1fr 1fr 1fr 1fr;
         overflow: hidden;
-        border-radius: 10px;
-        border: solid red;
+        border-radius: 20px;
         .img-modal-destaque{
             grid-column: 1/5;
             width: 100%;
@@ -44,6 +39,17 @@
         .secundary-img-modal{
             width: 100%
         }
+    }
+
+    .orcamento-modal {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 2rem;
+        border-radius: 30px;
+        background-color: var(--second-color);
+
     }
 }
 
