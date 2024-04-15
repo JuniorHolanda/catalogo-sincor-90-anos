@@ -6,6 +6,7 @@
 
 //cria o modal
 let modal = document.createElement('dialog');
+modal.classList.add('modal-container')
 
 //cria container do título + descrição
 let containerTitleInfo = document.createElement('div');
@@ -78,6 +79,7 @@ function acionarModal (){
     
     modal.appendChild(containerTitleInfo)
     document.body.appendChild(modal)
+    modal.show()
 }
 
 

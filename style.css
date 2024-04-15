@@ -1,6 +1,7 @@
 @import url(assets/styles/all-btn-style.css);
 @import url(assets/styles/cabecalho.css);
 @import url(assets/styles/card-style.css);
+@import url(assets/styles/modal.css);
 @import url("https://use.typekit.net/oqh1shf.css");
 :root {
   --sinc-color01: #032E5C;

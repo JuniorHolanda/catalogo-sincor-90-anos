@@ -1,0 +1,11 @@
+.modal-container::backdrop{
+    background-color: #000000d3;
+}
+
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 90vh;
+    background-color: red;
+}
