@@ -6,10 +6,11 @@
 .modal-style {
   display: flex;
   flex-direction: column;
-  width: 95vw;
-  height: 90vh;
+  width: 80vw;
   gap: 20px;
   background-color: var(--background-color);
+  border-radius: 10px;
+  border: solid var(--clear-color);
 }
 .modal-style .container-name-description {
   width: 100%;
@@ -40,6 +41,46 @@
 }
 .modal-style .container-gallery .secundary-img-modal {
   width: 100%;
+}
+.modal-style .product-modal-details {
+  display: flex;
+  font-family: var(--font-main);
+  justify-content: center;
+  gap: 20px;
+}
+.modal-style .product-modal-details .medida {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  background-color: var(--tirth-color);
+  color: var(--clear-color);
+  border-radius: 10px;
+  font-size: 1rem;
+}
+.modal-style .product-modal-details .medida h2 {
+  font-size: 1rem;
+}
+.modal-style .product-modal-details .medida p {
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+.modal-style .product-modal-details .gravacao {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+  background-color: var(--sinc-color01);
+  color: var(--clear-color);
+  border-radius: 10px;
+  font-size: 1rem;
+}
+.modal-style .product-modal-details .gravacao h2 {
+  font-size: 1rem;
+}
+.modal-style .product-modal-details .gravacao p {
+  font-size: 0.8rem;
+  font-weight: 100;
 }
 .modal-style .orcamento-modal {
   display: flex;
