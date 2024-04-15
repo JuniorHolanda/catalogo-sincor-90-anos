@@ -20,7 +20,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   width: 80vw;
   gap: 20px;
   background-color: var(--background-color);
@@ -44,8 +43,7 @@
 }
 .modal-style .container-gallery {
   display: grid;
-  align-self: center;
-  justify-self: center;
+  align-content: center;
   height: auto;
   width: 100%;
   border: solid purple;
