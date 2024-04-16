@@ -21,14 +21,14 @@
   flex-direction: column;
   justify-content: center;
   width: 80vw;
-  height: 90vh;
   gap: 20px;
   background-color: var(--background-color);
   border-radius: 10px;
   border: solid var(--clear-color);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.37);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.368627451);
 }
 .modal-style .container-name-description {
+  padding: 30px;
   width: 100%;
 }
 .modal-style .container-name-description .title-modal {
@@ -124,4 +124,7 @@
   height: 40px;
   border-radius: 30px;
   background-color: var(--second-color);
+  color: var(--clear-color);
+  font-family: var(--font-main);
+  font-size: 0.8;
 }/*# sourceMappingURL=modal.css.map */
