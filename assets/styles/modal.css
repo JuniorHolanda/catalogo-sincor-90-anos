@@ -21,6 +21,7 @@
   flex-direction: column;
   justify-content: center;
   width: 80vw;
+  height: 90vh;
   gap: 20px;
   background-color: var(--background-color);
   border-radius: 10px;
@@ -56,6 +57,7 @@
   justify-content: center;
   border: solid red;
   width: 100%;
+  height: auto;
 }
 .modal-style .container-gallery .container-main-img .img-modal-destaque {
   -o-object-fit: contain;
