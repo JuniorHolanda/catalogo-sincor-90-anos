@@ -46,15 +46,15 @@
         height: auto;
         width: 100%;
         gap: 5px;
-        overflow: hidden;
         border-radius: 20px;
         .container-main-img{
             display: flex;
             align-items: center;
             justify-content: center;
-            border: solid red;
             width: 100%;
             height: auto;
+            border-radius: 10px 10px 0px 0px;
+            overflow: hidden;
             .img-modal-destaque{
                 object-fit: contain;
                 width: 100%;
@@ -63,9 +63,10 @@
         .container-secundary-img{
             display: flex;
             justify-content: space-between;
-            border: solid blue;
             height: 20%;
             width: 100%;
+            border-radius: 0px 0px 10px 10px;
+            overflow: hidden;
             .secundary-img-modal{
                 width: 24%;
             }
