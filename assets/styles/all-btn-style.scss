@@ -13,7 +13,10 @@
         color: var(--sinc-color01);
         .btn {
             display: flex;
-            font-size: .7rem;
+            border: none;
+            background-color: transparent;
+            font-size: .8rem;
+            font-weight: 600;
             color: var(--sinc-color01);
             i, a{
                 display: flex;

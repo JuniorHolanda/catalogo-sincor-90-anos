@@ -13,7 +13,10 @@
 }
 .container-btn .btn {
   display: flex;
-  font-size: 0.7rem;
+  border: none;
+  background-color: transparent;
+  font-size: 0.8rem;
+  font-weight: 600;
   color: var(--sinc-color01);
 }
 .container-btn .btn i, .container-btn .btn a {
