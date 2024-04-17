@@ -1,50 +1,4 @@
-const listaBtn = document.querySelectorAll('')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*const modal = document.querySelector('#modal');
+const modal = document.querySelector('#modal');
 const btnAbrirModal = document.querySelectorAll('.btn');
 console.log(btnAbrirModal);
 const btnFecharModal = document.querySelector('#closeModal');
@@ -59,5 +13,3 @@ btnFecharModal.addEventListener('click' , () => {
     modal.close()
 
 })
-
-*/
