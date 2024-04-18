@@ -276,15 +276,6 @@
   grid-area: 1/3/2/4;
   background-color: var(--clear-color);
 }
-.wrap-divquartet .secundary-prduct-9 .container-img-secundary-prduct {
-  height: 63%;
-}
-.wrap-divquartet .secundary-prduct-9 .container-img-secundary-prduct .img-card {
-  display: flex;
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 100%;
-}
 .wrap-divquartet .secundary-prduct-10 {
   grid-area: 2/1/3/4;
   display: grid;

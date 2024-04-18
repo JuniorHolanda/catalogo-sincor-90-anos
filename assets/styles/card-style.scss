@@ -97,10 +97,7 @@
         .container-btn{
         }
     }
-  
-
-
-    .text-main-product-1{
+      .text-main-product-1{
         grid-area: 1/2/2/3;
         display: flex;
         flex-direction: column;
@@ -123,7 +120,6 @@
             font-size: 100%;
             overflow-wrap: break-word;
         }
-        
     }
         // estilo dos textos de destaque nos cards
 
@@ -139,9 +135,7 @@
             max-width: 100%;
         }
     }
-
 }
-
 .card-destaque{
     display: flex;
     flex-direction: column;
@@ -219,9 +213,7 @@
             font-size: .8rem;
         }
     }
-
     // usar esse estilo de botão apenas para ajustes locais, para alteração geral usar o all-btn-style.scss
-
     .container-btn{
         height: 10%;
         width: 95%;
@@ -286,8 +278,6 @@
     .container-btn{
         grid-area: 2/2/3/3;
     }
-
-
 }
 
 // estilo do card secundário 7, 8, 9, 10 
@@ -310,18 +300,9 @@
     .secundary-prduct-9{
         grid-area: 1/3/2/4;
         background-color: var(--clear-color);
-        .container-img-secundary-prduct{
-            height: 63%;
-            .img-card{
-                display: flex;
-                object-fit: cover;
-                height: 100%;
-                
-            }
-        }
+
 
     }
-
     .secundary-prduct-10{
         grid-area: 2/1/3/4;
         display: grid;
@@ -347,10 +328,7 @@
         }
 
     }
-
-
 }
-
 .secundary-prduct-11{
     grid-area: 5/1/6/2;
     background-color: var(--clear-color);
