@@ -1,15 +1,18 @@
-const modal = document.querySelector('#modal');
-const btnAbrirModal = document.querySelectorAll('.btn');
-console.log(btnAbrirModal);
-const btnFecharModal = document.querySelector('#closeModal');
+let modal = document.querySelector('#modal');
 
-btnAbrirModal[1].addEventListener('click' , () => {
-    modal.classList.add('modal-style')
-    modal.showModal();
-});
+let btnAbrirModal = document.querySelectorAll('.btn');
+let btnFecharModal = document.querySelector('#closeModal');
 
-btnFecharModal.addEventListener('click' , () => {
-    modal.classList.remove('modal-style')
-    modal.close()
 
-})
+
+function minhaFuncao (idDoElemento) {
+    console.log(idDoElemento);
+}
+
+for (i=0; i < btnAbrirModal.length; i++){
+    var botao = btnAbrirModal[i];
+    botao.addEventListener('click' , function() {
+        var idDoElemento = this.id;
+        minhaFuncao(idDoElemento);
+    });
+}
